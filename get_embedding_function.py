@@ -1,15 +1,5 @@
 from sentence_transformers import SentenceTransformer
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> d41cf62 (first commit)
->>>>>>> bbfdd13 (first commit)
->>>>>>> 6446644 (first commit)
 class MyEmbeddingFunction():
 
   def embed_documents(data):
