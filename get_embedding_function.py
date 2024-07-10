@@ -11,3 +11,6 @@ class MyEmbeddingFunction():
     model = SentenceTransformer('sentence-transformers/paraphrase-albert-small-v2')
     embeddings = model.encode(query)
     return embeddings.tolist()
+
+
+#gokhaneraslan
