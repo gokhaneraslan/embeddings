@@ -5,6 +5,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from ad_to_db import main_data
 
 
+import os
+
+path = "data"
+if not os.path.exists(path):
+    os.makedirs(path)
+
 app = FastAPI()
 
 origins = ["*"]
